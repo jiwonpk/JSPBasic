@@ -20,11 +20,10 @@
    	<form action= "quiz02_ok.jsp" method="post">
    	
    	이름:<input type="text" name="name"value="박지원"><br>
-   	키:<input type="text" name="hight"value="190"><br>
-   	몸무게:<input type ="text"name="weigth"value="80"><br>
-   	
-   	
+   	키:<input type="text" name="hight"value="175"><br>
+   	몸무게:<input type ="text"name="weigth"value="75"><br>
    	<input type="submit" value="제출">
+   	
    	</form>
 
 </body>
