@@ -27,6 +27,30 @@
   </servlet-mapping>
   
   
+  <!-- 예외처리에 대한 프로젝트 전역 설정 - 개발도중에 한면 예외로그가 보이지 않기 때문에, 프로젝트가   -->
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>503</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<exception-type>java.lang.NullPointerException</exception-type>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  
+  
+  
   
   
   
